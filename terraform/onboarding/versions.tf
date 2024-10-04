@@ -4,8 +4,8 @@ terraform {
 
   required_providers {
     harness = {
-      source = "harness/harness"
-      version = "0.33.4" #"0.40.2"
+      source  = "harness/harness"
+      version = "~> 0.3"
     }
   }
 }

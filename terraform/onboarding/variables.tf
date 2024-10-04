@@ -2,11 +2,11 @@
 
 // Platform
 variable "account_id" {
-  type    = string
+  type = string
 }
 
 variable "org_id" {
-  type    = string
+  type = string
 }
 
 variable "project_id" {
@@ -14,7 +14,7 @@ variable "project_id" {
 }
 
 variable "api_key" {
-  type = string
+  type      = string
   sensitive = true
 }
 
